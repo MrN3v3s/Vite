@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "github.codespaces",
+        "visualstudioexptteam.vscodeintellicode",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "ritwickdey.liveserver",
+        "ms-vsliveshare.vsliveshare",
+        "esbenp.prettier-vscode",
+        "ms-vscode.remote-repositories",
+        "vscode-icons-team.vscode-icons",
+        "ecmel.vscode-html-css",
+        "github.remotehub",
+        "github.vscode-pull-request-github",
+        "github.copilot-chat",
+        "github.copilot",
+        "openai.chatgpt"
+    ]
+}
