@@ -4,19 +4,30 @@
 
 
 #myVideo {
+  box-shadow: 10px 10px;
   position: fixed;
   right: 0;
   bottom: 0;
   /* height: 50%; */
   min-width: 100%; 
   min-height: 100%;
+  z-index: 1;
 
 }
 
 .content {
   position: relative;
+  
   z-index: 2;
   /* background-color: rgba(255, 255, 255, 0.8); */
-  opacity:100%;
+  /* opacity:100%; */
+  padding: 10px;
+}
+
+.content_n_t {
+  position: relative;
+  z-index: 2;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* opacity:100%; */
   padding: 10px;
 }
