@@ -98,7 +98,7 @@
 .contact-button {
     display: inline-block;
     padding: 15px 40px;
-    background-color: #d4a373;
+    background-color: #004789;
     color: white;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
@@ -108,7 +108,7 @@
 }
 
 .contact-button:hover {
-    background-color: #c49363;
+    background-color: #004769;
 }
 
   
