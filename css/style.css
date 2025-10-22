@@ -8,15 +8,14 @@
   right: 0;
   bottom: 0;
   /* height: 50%; */
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
   z-index: 1;
-
 }
 
 .content {
   position: relative;
-  
+
   z-index: 2;
   /* background-color: rgba(255, 255, 255, 0.8); */
   /* opacity:100%; */
@@ -31,84 +30,240 @@
   padding: 10px;
 }
 
-        body {
-            font-family: 'Josefin Sans', sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        
-        h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5em;
-            color: #00315d;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        .intro {
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto 20px;
-        }
-        
-        hr {
-            width: 200px;
-            height: 2px;
-            background-color: #004789;
-            border: none;
-            margin: 30px auto 40px;
-        }
-        
-        .box {
-            background: white;
-            border: 3px solid #004789;
-            border-radius: 10px;
-            padding: 40px;
-            margin-bottom: 30px;
-            display: flex;
-            gap: 30px;
-            align-items: center;
-        }
-        
-        .box.reverse {
-            flex-direction: row-reverse;
-        }
-        
-        .box img {
-            width: 300px;
-            height: 250px;
-            border: 3px solid #004789;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 71, 137, 0.3);
-        }
-        
-        .box p {
-            font-style: italic;
-            font-size: 1.1em;
-            color: #555;
-            line-height: 1.8;
-            flex: 1;
-        }
-        .contact-button-container {
-    text-align: center;
-    margin: 40px 0;
+Estilo da mafalda body {
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5em;
+  color: #00315d;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+hr {
+  width: 200px;
+  height: 2px;
+  background-color: #004789;
+  border: none;
+  margin: 30px auto 40px;
+}
+
+.box {
+  background: white;
+  border: 3px solid #004789;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.box.reverse {
+  flex-direction: row-reverse;
+}
+
+.box img {
+  width: 300px;
+  height: 250px;
+  border: 3px solid #004789;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 71, 137, 0.3);
+}
+
+.box p {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.8;
+  flex: 1;
+}
+.contact-button-container {
+  text-align: center;
+  margin: 40px 0;
 }
 
 .contact-button {
-    display: inline-block;
-    padding: 15px 40px;
-    background-color: #004789;
-    color: white;
-    text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #004789;
+  color: white;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .contact-button:hover {
-    background-color: #004769;
+  background-color: #004769;
 }
 
-  
+<body {
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(135deg, #fdfbfb 0%, #f7f3f0 100%);
+  color: #4a4a4a;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  color: #00315d;
+}
+
+header {
+  background: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 2px solid #004789;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #004789;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.team-member {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e8f2f7;
+  margin-bottom: 30px;
+}
+
+.member-photo {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, #e8f2f7 0%, #b3d4e6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #004789;
+}
+
+.member-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-info {
+  padding: 25px;
+  text-align: center;
+}
+
+.member-name {
+  font-size: 1.5rem;
+  color: #00315d;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.member-role {
+  font-size: 1.1rem;
+  color: #004789;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.member-contact a {
+  color: #004789;
+  text-decoration: none;
+}
+
+.info-card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e8f2f7;
+  margin-bottom: 30px;
+}
+
+.info-item {
+  padding: 20px;
+  background: #f8fbfd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.info-item h3 {
+  color: #00315d;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.info-item p {
+  margin: 0;
+  color: #6b6b6b;
+}
+
+.info-item a {
+  color: #004789;
+  text-decoration: none;
+}
+
+.form-control,
+.form-select {
+  border: 2px solid #b3d4e6;
+  background: #f8fbfd;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #004789;
+  box-shadow: 0 0 0 0.2rem rgba(0, 71, 137, 0.1);
+}
+
+label {
+  color: #00315d;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #004789 0%, #00315d 100%);
+  border: none;
+  padding: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #00315d 0%, #004789 100%);
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  background: #f8fbfd;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #b3d4e6;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
