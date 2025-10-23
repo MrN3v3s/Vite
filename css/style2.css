@@ -11,11 +11,6 @@
             overflow-x: hidden;
             background: #fff;
         }
-        svg {
-                position: fixed;
-                left: 76px;
-                top: -24px;
-        }
 
         /* Logo Intro Animation */
         .logo-intro {
@@ -604,8 +599,8 @@
             text-decoration: none;
             font-size: 0.95rem;
             line-height: 2;
-            display: block;
             font-weight: 300;
+            display: block;
         }
 
         .footer-section a:hover {
@@ -638,7 +633,6 @@
             font-weight: 300;
         }
 
-
         /* Responsive */
         @media (max-width: 1024px) {
             .services-grid {
@@ -654,201 +648,7 @@
             }
         }
 
-                @media (max-width: 768px) {
-            .hero-content h1 {
-                font-size: 3rem;
-            }
-
-            .about-section,
-            .services-section,
-            .gallery-section,
-            .contact-section {
-                padding: 4rem 0;
-            }
-
-            .about-text {
-                text-align: center;
-                margin-top: 2rem;
-            }
-
-            .services-grid,
-            .gallery-grid {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-
-            .about-image img {
-                max-width: 100%;
-            }
-        }
-
-        /* Contact and Team Styles */
-        .team-member {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-            border: 1px solid #e8f2f7;
-            margin-bottom: 30px;
-            transition: all 0.3s ease;
-        }
-
-        .team-member:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-        }
-
-        .member-photo {
-            width: 100%;
-            height: 300px;
-            background: linear-gradient(135deg, #e8f2f7 0%, #b3d4e6 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 4rem;
-            color: #004789;
-        }
-
-        .member-photo img {
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-            object-position: top;
-        }
-
-        .member-info {
-            padding: 25px;
-            text-align: center;
-        }
-
-        .member-name {
-            font-size: 1.5rem;
-            color: #00315d;
-            margin-bottom: 8px;
-            font-weight: 500;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .member-role {
-            font-size: 1.1rem;
-            color: #004789;
-            margin-bottom: 15px;
-            font-style: italic;
-        }
-
-        .member-contact a {
-            color: #004789;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .member-contact a:hover {
-            color: #00315d;
-        }
-
-        .info-card {
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-            border: 1px solid #e8f2f7;
-            margin-bottom: 30px;
-        }
-
-        .info-item {
-            padding: 20px;
-            background: #f8fbfd;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-        }
-
-        .info-item:hover {
-            background: #f0f7fc;
-            transform: translateX(5px);
-        }
-
-        .info-item h3 {
-            color: #00315d;
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .info-item p {
-            margin: 0;
-            color: #6b6b6b;
-        }
-
-        .info-item a {
-            color: #004789;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .info-item a:hover {
-            color: #00315d;
-        }
-
-        .form-control,
-        .form-select {
-            border: 2px solid #b3d4e6;
-            background: #f8fbfd;
-            padding: 12px;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-
-        .form-control:focus,
-        .form-select:focus {
-            border-color: #004789;
-            box-shadow: 0 0 0 0.2rem rgba(0, 71, 137, 0.1);
-            outline: none;
-        }
-
-        label {
-            color: #00315d;
-            font-weight: 500;
-            margin-bottom: 8px;
-        }
-
-        .btn-primary {
-            background: linear-gradient(135deg, #004789 0%, #00315d 100%);
-            border: none;
-            padding: 15px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
-            width: 100%;
-        }
-
-        .btn-primary:hover {
-            background: linear-gradient(135deg, #00315d 0%, #004789 100%);
-            transform: translateY(-2px);
-        }
-
-        .social-icon {
-            width: 50px;
-            height: 50px;
-            background: #f8fbfd;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid #b3d4e6;
-            margin: 0 10px;
-            font-size: 1.5rem;
-            color: #004789;
-            transition: all 0.3s ease;
-        }
-
-        .social-icon:hover {
-            background: #004789;
-            color: white;
-            border-color: #004789;
-            transform: translateY(-3px);
-        }
+        @media (max-width: 768px) {
             nav {
                 padding: 1rem 5%;
             }
@@ -899,5 +699,5 @@
             .about-text h2, .services-section h2, .gallery-section h2, .contact-section h2, .full-image-text h2 {
                 font-size: 2rem;
             }
-        
+        }
     
