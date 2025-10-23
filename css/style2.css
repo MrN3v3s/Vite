@@ -11,6 +11,11 @@
             overflow-x: hidden;
             background: #fff;
         }
+        svg {
+                position: fixed;
+                left: 76px;
+                top: -24px;
+        }
 
         /* Logo Intro Animation */
         .logo-intro {
