@@ -633,6 +633,7 @@
             font-weight: 300;
         }
 
+
         /* Responsive */
         @media (max-width: 1024px) {
             .services-grid {
