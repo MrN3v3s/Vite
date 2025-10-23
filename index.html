@@ -1,77 +1,283 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <!--isto é para o icon-->
+    <title>Vali Eventos - Criando Momentos Inesquecíveis</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <!--isto é para o icon-->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Vali Eventos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style2.css" />
   </head>
   <body>
-      
-      <video autoplay muted loop id="myVideo">
-        <source src="./assets/video/vou_de_cabrio_.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/img/logo azul.svg"
+            alt="Vali Eventos"
+          />
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>    
+      </ul>
+    </nav>
+
+   
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="./assets/video/video homepage.mp4" type="video/mp4" />
       </video>
- 
+      <div
+        class="hero-content d-flex align-items-center justify-content-center text-center"
+      >
+        <div>
+          <h1 class="text-shadow-drop-br">VALI EVENTOS</h1>
+          <p class="mb-4">Momentos Inesquecíveis Começam Aqui</p>
+          <a href="historia.html" class="btn btn-hero">Explore</a>
+        </div>
+      </div>
+    </section>
 
-<div class="container-fluid text-light text-center border-bottom border-1 border-lignt content">
-    <div class="row p-3">
-        <div class="col-sm-4">
-            <a class="btn text-light" href="index.html">Home</a>
-            <a class="btn text-light" href="serviços.html">Agendar</a>
+    <!-- About Section -->
+    <section id="historia">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img
+              src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200"
+              alt="Casamento"
+              class="about-image"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="section-title">Criamos Experiências Únicas</h2>
+            <div class="about-text">
+              <p>
+                A Vali Eventos é especializada em transformar momentos especiais
+                em memórias eternas. Com paixão e dedicação, planeamos cada
+                detalhe para criar celebrações verdadeiramente memoráveis.
+              </p>
+              <p>
+                Desde casamentos de sonho a festas íntimas, cada evento é
+                tratado com o cuidado e a atenção que merece. Trabalhamos em
+                estreita colaboração com os nossos clientes para garantir que
+                cada celebração reflita perfeitamente a sua visão e
+                personalidade.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4">
-            <a>icon</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="bg-light">
+      <div class="container text-center">
+        <h2 class="section-title">Os Nossos Serviços</h2>
+        <p class="section-subtitle mb-5">
+          Planeamento completo para cada ocasião especial
+        </p>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-arrow-through-heart"></i>
+              </div>
+              <h3>Casamentos</h3>
+              <p>
+                Planeamento completo do seu dia especial, desde a cerimónia até
+                à celebração
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-cake2"></i>
+              </div>
+              <h3>Aniversários</h3>
+              <p>Celebrações únicas e personalizadas para todas as idades</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-flower1"></i>
+              </div>
+              <h3>Decoração</h3>
+              <p>Design e decoração personalizada para cada ocasião especial</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-balloon-heart"></i>
+              </div>
+              <h3>Baby Shower</h3>
+              <p>Eventos encantadores para celebrar a chegada do bebé</p>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4">
-            <a class="btn text-light" href="contacto.html" >Contactos</a>
-            <a class="btn text-light" href="galeria.html">Galaria</a>
-        </div>
-     
-    </div>
+      </div>
+    </section>
+
+    <!-- Full Image Section -->
+    <div
+      class="full-image-section d-flex align-items-center justify-content-center text-center bg-primary-custom"
+    >
+      <div class="full-image-text">
+        <h2>CADA DETALHE IMPORTA</h2>
+        <p class="fs-5">Perfeição em cada momento</p>
+      </div>
     </div>
 
-    <div class="container-fluid p-5 text-light text-center content">
-      <h1>My First Bootstrap Page</h1>
-      <p> dolor, sit amet consectetur adipsicing elit.</p>
-    </div>
+    <!-- Gallery Section -->
+    <section id="galeria">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Momentos Captados</h2>
+          <p class="section-subtitle">Algumas das celebrações que criámos</p>
+        </div>
 
-    <div class="container-fluid text-light content p-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>Column 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris...
-          </p>
+        <div class="row g-3">
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800"
+                alt="Casamento 1"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800"
+                alt="Casamento 2"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800"
+                alt="Decoração"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800"
+                alt="Festa"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=800"
+                alt="Evento"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800"
+                alt="Celebração"
+              />
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <h3>Column 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris...
-          </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="bg-light text-center">
+      <div class="container">
+        <h2 class="section-title">Vamos Criar Algo Especial Juntos</h2>
+        <p class="section-subtitle mb-4">
+          Entre em contacto connosco e comece a planear o seu evento de sonho
+        </p>
+        <a href="#contacto" class="btn btn-contact">Fale Connosco</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <h3>Vali Eventos</h3>
+            <p>Criamos momentos inesquecíveis desde 20XX</p>
+            <div class="social-links mt-3">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <h3>Contactos</h3>
+            <p>
+              Email: info@valieventos.pt<br />
+              Telefone: +351 XXX XXX XXX<br />
+              Localização: Portugal
+            </p>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <h3>Links Rápidos</h3>
+            <nav class="nav flex-column">
+              <a class="nav-link px-0" href="#historia">A Nossa História</a>
+              <a class="nav-link px-0" href="#servicos">Serviços</a>
+              <a class="nav-link px-0" href="#galeria">Galeria</a>
+              <a class="nav-link px-0" href="#contacto">Contacto</a>
+            </nav>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <h3>Column 3</h3>
-          <p> ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris...
+
+        <div class="text-center pt-4 mt-4 border-top border-secondary">
+          <p class="text-white-50 mb-0">
+            © 2024 Vali Eventos. Todos os direitos reservados.
           </p>
         </div>
       </div>
-    </div>
-    
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
