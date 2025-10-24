@@ -968,7 +968,7 @@ nav {
 
 .TituloPagHistoria {
   text-align: center;
-  padding: 40px 20px;
+  padding: 71px 20px;
 }
 
 .TituloPagHistoria h2 {
@@ -1056,8 +1056,8 @@ nav {
 .rita-servicos-container {
   position: relative;
   z-index: 1;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 768px;
+  margin: 67px 90px;
 }
 .rita-servicos-title {
   font-size: 2.6rem;
@@ -1457,7 +1457,7 @@ nav {
 .intro {
   text-align: center;
   max-width: 800px;
-  margin: 0 auto 40px;
+  margin: 90px auto 60px;
 }
 
 hr {
@@ -1498,7 +1498,7 @@ hr {
 .claudia-container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 24px 16px;
+  padding: 50px 16px;
 }
 .claudia-logo {
   height: 68px;
