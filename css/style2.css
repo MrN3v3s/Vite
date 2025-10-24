@@ -912,9 +912,21 @@ nav {
   width: 280px;
   padding: 5rem 2rem;
 }
+.nav-link-footer{
+  color: #ffffff;
+}
+  .nav-link{
+  color: #004789;
+}
+.nav-link:hover, 
+.nav-link-footer:hover{
+  color:lightpink
+}
+
 
 .nav-links a {
   font-size: 1.1rem;
+  
 }
 
 .hero-content h1 {
