@@ -1,183 +1,275 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="pt">
 <head>
-<title>Vali Eventos | Serviços</title>
-<link rel="stylesheet" href="./css/style.css">
-
-</head>
-
-<body>
-<header class="servicos">
-  <div class="servicos-container">
-    <h1 class="servicos-title">Serviços Vali</h1>
-    <p class="servicos-sub">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vali Eventos | Serviços</title>
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style2.css" />
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+       <svg height="200" width="300" style="position:absolute;" xmlns="http://www.w3.org/2000/svg">
+  <image width="232" height="134" href="./assets/img/logo azul_preview_rev_1.png" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="historia.html">História</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="serviços.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galeria</a>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Letters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contactos</a>
+          </li>
+        </li>    
+      </ul>
+      </div>
+    </nav>
+<header class="rita-servicos">
+  <div class="rita-servicos-container">
+    <h1 class="rita-servicos-title">Serviços Vali</h1>
+    <p class="rita-servicos-sub">
       Mais do que um evento, uma experiência.<br>
-      Celebra o teu amor com a <strong>Vali</strong>.
+      Celebra o teu amor com a <strong>Vali</strong>
     </p>
   </div>
 </header>
 
-<section class="CASAMENTOS">
-  <p class="casamentos-title">CASAMENTOS</p>
+<section class="rita-casamentos">
+  <p class="rita-casamentos-title">CASAMENTOS</p>
 
-  <div class="cards">
+  <div class="rita-cards">
 
-    <article class="card-wedding">
-      <div class="card-wedding__head">Praia</div>
-      <div class="card-wedding__media">
-        <img src="img/beach.png"
+    <article class="rita-card-wedding">
+      <div class="rita-card-wedding__head">Praia</div>
+      <div class="rita-card-wedding__media">
+        <img src="./assets/img/beach.png"
              alt="Cerimónia de casamento na praia com arco e cadeiras à beira-mar">
 
-        <div class="card-wedding__overlay">
-          <a href="galeria-praia.html" aria-label="Ver galeria de casamentos na praia"> VER GALERIA </a>
+        <div class="rita-card-wedding__overlay">
+          <a href="#eventos-title" aria-label="Ver galeria de casamentos na praia"> VER GALERIA </a>
         </div>
       </div>
-      <div class="card-wedding__body">
+      <div class="rita-card-wedding__body">
         Um cenário natural e romântico, perfeito para quem sonha dizer “sim” com o mar como testemunha.
       </div>
     </article>
 
-    <article class="card-wedding">
-      <div class="card-wedding__head">Campo</div>
-      <div class="card-wedding__media">
-        <img src="img/farm.png"
+    <article class="rita-card-wedding">
+      <div class="rita-card-wedding__head">Campo</div>
+      <div class="rita-card-wedding__media">
+        <img src="./assets/img/farm.png"
              alt="Passadeira no campo com arranjos florais e cadeiras para cerimónia">
-        <div class="card-wedding__overlay">
+        <div class="rita-card-wedding__overlay">
           <a href="galeria-campo.html" aria-label="Ver galeria de casamentos no campo">VER GALERIA</a>
         </div>
       </div>
-      <div class="card-wedding__body">
+      <div class="rita-card-wedding__body">
         Ideal para casais que valorizam a natureza, a tranquilidade e a autenticidade dos detalhes.
       </div>
     </article>
 
-    <article class="card-wedding">
-      <div class="card-wedding__head">Cidade</div>
-      <div class="card-wedding__media">
-        <img src="img/venue.png"
+    <article class="rita-card-wedding">
+      <div class="rita-card-wedding__head">Cidade</div>
+      <div class="rita-card-wedding__media">
+        <img src="./assets/img/venue.png"
              alt="Sala elegante de hotel preparada para banquete de casamento">
-        <div class="card-wedding__overlay">
+        <div class="rita-card-wedding__overlay">
           <a href="galeria-cidade.html" aria-label="Ver galeria de casamentos na cidade">VER GALERIA</a>
         </div>
       </div>
-      <div class="card-wedding__body">
+      <div class="rita-card-wedding__body">
         Para quem quer celebrar o amor com a elegância e energia que reflete a vossa personalidade.
       </div>
     </article>
   </div>
-  </section>
+</section>
 
-<div class="btn-wrapper">
-  <a href="contactos.html" class="btn-sabemais">SABE MAIS</a>
+<div class="rita-btn-wrapper">
+  <a href="contacto.html" class="rita-btn-sabemais">SABE MAIS</a>
 </div>
 
-<section class="eventos">
-  <div class="container">
-    <h2 id="eventos-title" class="eventos-title">OUTROS EVENTOS</h2>
-    <p class="eventos-sub">Estamos consigo em todas as celebrações! Para que possa desfrutar dos momentos no presente!</p>
+<section class="rita-eventos">
+  <div class="rita-container">
+    <h2 id="eventos-title" class="rita-eventos-title">OUTROS EVENTOS</h2>
+    <p class="rita-eventos-sub">Estamos consigo em todas as celebrações! Para que possa desfrutar dos momentos no presente!</p>
 
-    <div class="ev-grid">
-      <a class="ev-card" href="#aniversarios">
-        <figure class="ev-media">
-          <img src="img/xaniversario.png" alt="Mesa de aniversário com bolo e balões">
-          <figcaption class="ev-label"> ANIVERSÁRIOS </figcaption>
+    <div class="rita-ev-grid">
+      <a class="rita-ev-card" href="#aniversarios">
+        <figure class="rita-ev-media">
+          <img src="./assets/img/xaniversario.png" alt="Mesa de aniversário com bolo e balões">
+          <figcaption class="rita-ev-label"> ANIVERSÁRIOS </figcaption>
         </figure>
       </a>
-      <a class="ev-card" href="#batizados">
-        <figure class="ev-media">
-          <img src="img/xbatizado.png" alt="Detalhes de batizado">
-          <figcaption class="ev-label">BATIZADOS</figcaption>
+      <a class="rita-ev-card" href="#batizados">
+        <figure class="rita-ev-media">
+          <img src="./assets/img/xbatizado.png" alt="Detalhes de batizado">
+          <figcaption class="rita-ev-label">BATIZADOS</figcaption>
         </figure>
       </a>
-      <a class="ev-card" href="#despedidas">
-        <figure class="ev-media">
-          <img src="img/xsolteiro.png" alt="Grupo a brindar numa festa">
-          <figcaption class="ev-label">DESPEDIDAS DE SOLTEIRO</figcaption>
+      <a class="rita-ev-card" href="#despedidas">
+        <figure class="rita-ev-media">
+          <img src="./assets/img/xsolteiro.png" alt="Grupo a brindar numa festa">
+          <figcaption class="rita-ev-label">DESPEDIDAS DE SOLTEIRO</figcaption>
         </figure>
       </a>
     </div>
   </div>
 </section>
 
-<section class="complementares">
-  <div class="container">
-    <h2 id="comp-title" class="comp-title">SERVIÇOS COMPLEMENTARES</h2>
-    <p class="comp-sub">Detalhes que transformam o seu evento num momento inesquecível.</p>
+<section class="rita-complementares">
+  <div class="rita-container">
+    <h2 id="comp-title" class="rita-comp-title">SERVIÇOS COMPLEMENTARES</h2>
+    <p class="rita-comp-sub">Detalhes que transformam o seu evento num momento inesquecível.</p>
 
-    <div class="comp-grid">
-        
-      <article class="comp-card">
-        <div class="comp-icon" aria-hidden="true">📷</div>
-        <h3 class="comp-name">Fotografia & Vídeo</h3>
-        <p class="comp-desc">Reportagem completa, teaser e álbum digital.</p>
+    <div class="rita-comp-grid">
+
+      <article class="rita-comp-card">
+        <div class="rita-comp-icon" aria-hidden="true">📷</div>
+        <h3 class="rita-comp-name">Fotografia & Vídeo</h3>
+        <p class="rita-comp-desc">Reportagem completa, teaser e álbum digital.</p>
       </article>
 
-      <article class="comp-card">
-        <div class="comp-icon" aria-hidden="true">🥂</div>
-        <h3 class="comp-name">Catering & Bar</h3>
-        <p class="comp-desc">Menus personalizados, showcooking e cocktails.</p>
+      <article class="rita-comp-card">
+        <div class="rita-comp-icon" aria-hidden="true">🥂</div>
+        <h3 class="rita-comp-name">Catering & Bar</h3>
+        <p class="rita-comp-desc">Menus personalizados, showcooking e cocktails.</p>
       </article>
 
-      <article class="comp-card">
-        <div class="comp-icon" aria-hidden="true">💐</div>
-        <h3 class="comp-name">Decoração Floral</h3>
-        <p class="comp-desc">Bouquets, arco/altar e centros de mesa.</p>
+      <article class="rita-comp-card">
+        <div class="rita-comp-icon" aria-hidden="true">💐</div>
+        <h3 class="rita-comp-name">Decoração Floral</h3>
+        <p class="rita-comp-desc">Bouquets, arco/altar e centros de mesa.</p>
       </article>
 
-      <article class="comp-card">
-        <div class="comp-icon" aria-hidden="true">🎶</div>
-        <h3 class="comp-name">Música & Animação</h3>
-        <p class="comp-desc">DJ, banda ao vivo e pista de dança.</p>
+      <article class="rita-comp-card">
+        <div class="rita-comp-icon" aria-hidden="true">🎶</div>
+        <h3 class="rita-comp-name">Música & Animação</h3>
+        <p class="rita-comp-desc">DJ, banda ao vivo e pista de dança.</p>
       </article>
 
-      <article class="comp-card">
-        <div class="comp-icon" aria-hidden="true">💄</div>
-        <h3 class="comp-name">Styling & Beleza</h3>
-        <p class="comp-desc">Cabelo, make-up e acompanhamento no dia.</p>
+      <article class="rita-comp-card">
+        <div class="rita-comp-icon" aria-hidden="true">💄</div>
+        <h3 class="rita-comp-name">Styling & Beleza</h3>
+        <p class="rita-comp-desc">Cabelo, make-up e acompanhamento no dia.</p>
       </article>
 
-      <article class="comp-card">
-        <div class="comp-icon" aria-hidden="true">✉️</div>
-        <h3 class="comp-name">Convites & Estacionário</h3>
-        <p class="comp-desc">Save the date, menus, seating plan e sinalética.</p>
+      <article class="rita-comp-card">
+        <div class="rita-comp-icon" aria-hidden="true">✉️</div>
+        <h3 class="rita-comp-name">Convites & Estacionário</h3>
+        <p class="rita-comp-desc">Save the date, menus, seating plan e sinalética.</p>
       </article>
 
-      <article class="comp-card">
-        <div class="comp-icon" aria-hidden="true">💡</div>
-        <h3 class="comp-name">Iluminação & Som</h3>
-        <p class="comp-desc">Ambiente, fairy lights e PA profissional.</p>
+      <article class="rita-comp-card">
+        <div class="rita-comp-icon" aria-hidden="true">💡</div>
+        <h3 class="rita-comp-name">Iluminação & Som</h3>
+        <p class="rita-comp-desc">Ambiente, fairy lights e PA profissional.</p>
       </article>
 
-      <article class="comp-card">
-        <div class="comp-icon" aria-hidden="true">🚌</div>
-        <h3 class="comp-name">Transporte & Logística</h3>
-        <p class="comp-desc">Transfers, shuttles e apoio a convidados.</p>
+      <article class="rita-comp-card">
+        <div class="rita-comp-icon" aria-hidden="true">🚌</div>
+        <h3 class="rita-comp-name">Transporte & Logística</h3>
+        <p class="rita-comp-desc">Transfers, shuttles e apoio a convidados.</p>
       </article>
     </div>
   </div>
 </section>
 
-<section class="venues">
-  <div class="container">
-    <h2 id="venues-title" class="venues-title">VENUES</h2>
-    <p class="venues-sub">
+<section class="rita-venues">
+  <div class="rita-container">
+    <h2 id="venues-title" class="rita-venues-title">VENUES</h2>
+    <p class="rita-venues-sub">
       Descubra os espaços que temos disponíveis para a sua celebração.
     </p>
-    <a href="galeria-espacos.html" class="venues-btn">VER GALERIA</a>
+    <a href="galeria-espacos.html" class="rita-venues-btn">VER GALERIA</a>
   </div>
 </section>
 
-<section class="contact-cta">
-  <div class="container">
-    <h2 id="contact-title" class="contact-title">ENTRE EM CONTACTO</h2>
-    <p class="contact-sub">
+<section class="rita-contact-cta">
+  <div class="rita-container">
+    <h2 id="contact-title" class="rita-contact-title">ENTRE EM CONTACTO</h2>
+    <p class="rita-contact-sub">
       Vamos planear o evento dos seus sonhos?  
       A nossa equipa está pronta para o ajudar a transformar cada detalhe em algo memorável.
     </p>
-    <a href="contacto.html" class="contact-btn">ENTRAR EM CONTACTO</a>
+    <a href="contacto.html" class="rita-contact-btn">ENTRAR EM CONTACTO</a>
   </div>
 </section>
 
-</body>
+
+<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <h3>Vali Eventos</h3>
+            <p>A Vali Eventos dedica-se à organização de casamentos, aniversários e eventos personalizados, com elegância, dedicação e atenção a cada detalhe.</p>
+            <div class="social-links mt-3">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <h3>Contactos</h3>
+            <p>
+              Email: info@valieventos.pt<br />
+              Telefone: +351 912 345 678<br />
+              Localização: Av. da Liberdade 25 <br/>
+              8200-012 Albufeira, Portugal
+            </p>
+          </div>
+
+          
+          <div class="col-lg-4 mb-4">
+            <h3>Saiba mais</h3>
+            <div class="nav flex-column">
+              <a class="nav-link-footer px-0" href="historia.html">História</a>
+              <a class="nav-link-footer px-0" href="serviços.html">Serviços</a>
+              <a class="nav-link-footer px-0" href="galeria.html">Galeria</a>
+              <a class="nav-link-footer px-0" href="reviews.html">Letters</a>
+              <a class="nav-link-footer px-0" href="contacto.html">Contactos</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center pt-4 mt-4 border-top border-secondary">
+          <p class="text-white-50 mb-0">
+            © 2025 Vali Eventos. Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
- 
+

@@ -1035,3 +1035,410 @@ nav {
     background-color: #003d6f;
     color: white;
 }
+
+/* CSS extraído de style.css — classes prefixadas com "rita-" para mesclar em style2.css */
+
+/* rita-servicos */
+.rita-servicos {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.533), rgba(0, 71, 137, 0.599)),
+    url("img/geral\ \(7\).png") center/cover no-repeat;
+  color: #ffffff;
+  text-align: left;
+  padding: 40px 10px 120px;
+  position: relative;
+}
+.rita-servicos::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+}
+.rita-servicos-container {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.rita-servicos-title {
+  font-size: 2.6rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.rita-servicos-sub {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #e6edf4;
+}
+.rita-servicos-sub strong {
+  color: #fff;
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .rita-servicos {
+    padding: 100px 20px 80px;
+  }
+  .rita-servicos-title {
+    font-size: 2rem;
+  }
+  .rita-servicos-sub {
+    font-size: 1rem;
+  }
+}
+
+/* rita-SERVICOS (separado do bloco rita-servicos original) */
+.rita-SERVICOS{
+  position:relative;
+  isolation:isolate;
+  min-height:46vh;
+  display:grid;
+  place-items:center;
+  color:#fff;
+  text-align:center;
+  padding:64px 20px;
+  background:#0c2a47 url('geral.png') center/cover no-repeat;
+}
+
+/* cartoes / casamentos */
+.rita-casamentos {
+  padding: 36px 0;
+  margin-bottom: 60px;
+}
+.rita-casamentos-title {
+  text-align: center;
+  font-weight: 1000;
+  font-size:3rem;
+  padding: 14px 10px;
+  color: var(--azul);
+}
+.rita-cards {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+}
+
+/* card-wedding */
+.rita-card-wedding {
+  border: 2px solid var(--cinza-borda);
+  border-radius: 28px;
+  overflow: hidden;
+  background: #fff;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+.rita-card-wedding__head {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 14px 10px;
+  color: var(--azul);
+}
+.rita-card-wedding__media {
+  position: relative;
+  height: 190px;
+}
+.rita-card-wedding__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.rita-card-wedding__overlay {
+  position: absolute;
+  inset: 0;
+  display: grid; place-items: center;
+  text-align: center;
+  padding: 10px;
+  background:
+    linear-gradient(0deg, rgba(0,49,93,.75), rgba(0,71,137,.65));
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: .06em;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+.rita-card-wedding:hover .rita-card-wedding__overlay,
+.rita-card-wedding.is-active .rita-card-wedding__overlay {
+  opacity: 1;
+}
+.rita-card-wedding__body {
+  padding: 14px 16px 18px;
+  text-align: center;
+  color: #1a1a1a;
+}
+.rita-card-wedding.is-muted .rita-card-wedding__head {
+  background: #e9eef3;
+  color: #5a6a7a;
+}
+.rita-card-wedding.is-muted .rita-card-wedding__media img {
+  filter: grayscale(100%) opacity(.55);
+}
+.rita-card-wedding__overlay a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 14px;
+}
+
+/* botão saber mais */
+.rita-btn-wrapper {
+  text-align: center;
+  margin: 70px 0 50px;
+}
+.rita-btn-sabemais {
+  display: inline-block;
+  background-color: #00315d;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border: 2px solid #00315d;
+  transition: all 0.3s ease;
+}
+.rita-btn-sabemais:hover {
+  background-color: #004789;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* eventos */
+.rita-eventos{
+  margin-top: 90px;
+  padding: 60px 0;
+  text-align: center;
+  background-color: #024686;
+  color: #ffffff;
+}
+.rita-eventos .rita-container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.rita-eventos-title{
+  font-size: 1.8rem;
+  letter-spacing: .05em;
+  color: #ffffff;
+  margin: 0 0 6px;
+}
+.rita-eventos-sub{
+  color: #ffffff;
+  margin: 0 0 28px;
+}
+.rita-ev-grid{
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
+  justify-content: center;
+}
+.rita-ev-card{
+  display: block;
+  border-radius: 18px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.rita-ev-media{
+  margin: 0;
+  position: relative;
+  aspect-ratio: 16 / 10;
+}
+.rita-ev-media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1);
+  transition: transform .35s ease, filter .35s ease;
+}
+.rita-ev-media::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  transition: background .25s ease;
+}
+.rita-ev-label{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14px;
+  text-align: center;
+  letter-spacing: .06em;
+  color: #ffffff;
+  font-weight: 800;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.433);
+  transform: none;
+}
+.rita-ev-card:hover img{
+  transform: scale(1.06);
+  filter: saturate(.95);
+}
+.rita-ev-card:focus-visible{
+  outline: 3px dashed #00315d;
+  outline-offset: 4px;
+  border-radius: 18px;
+}
+@media (max-width: 900px){
+  .rita-ev-grid{ grid-template-columns: repeat(2, minmax(240px, 1fr)); }
+}
+@media (max-width: 560px){
+  .rita-ev-grid{ grid-template-columns: 1fr; }
+  .rita-eventos .rita-container{ padding: 0 20px; }
+}
+
+/* complementares */
+.rita-complementares{
+  padding:64px 0;
+  border-top:1px solid var(--stroke);
+}
+.rita-comp-title{
+  text-align:center;
+  color:var(--primary);
+  font-size:1.6rem;
+  letter-spacing:.05em;
+  margin:0 0 6px;
+}
+.rita-comp-sub{
+  text-align:center;
+  color:var(--muted);
+  margin:0 0 28px;
+}
+.rita-comp-grid{
+  display:grid;
+  gap:18px;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+}
+.rita-comp-card{
+  background:#fff;
+  border:1px solid var(--stroke);
+  border-radius:16px;
+  padding:18px;
+  text-align:center;
+  transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.rita-comp-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 10px 18px rgba(0,0,0,.08);
+  border-color:#d9d2cf;
+}
+.rita-comp-icon{
+  width:64px;
+  height:64px;
+  margin:4px auto 10px;
+  border-radius:999px;
+  display:grid;
+  place-items:center;
+  font-size:30px;
+  font-weight:700;
+  background:linear-gradient(180deg, var(--primary), var(--accent));
+  color:#fff;
+}
+.rita-comp-name{
+  margin:4px 0 6px;
+  color:var(--primary);
+  font-size:1rem;
+  letter-spacing:.04em;
+}
+.rita-comp-desc{
+  margin:0;
+  color:#2a2a2a;
+  font-size:.95rem;
+}
+
+/* venues (unificado) */
+.rita-venues {
+  text-align: center;
+  padding: 80px 0;
+  color: #ffffff;
+  margin-top: 80px;
+  background:
+    linear-gradient(rgba(0, 50, 93, 0.564), rgba(0, 71, 137, 0.428)),
+    url("img/geral\ \(11\).png") center/cover no-repeat;
+}
+.rita-venues .rita-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.rita-venues-title {
+  font-size: 2rem;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+  color: #e0e6ee;
+}
+.rita-venues-sub {
+  font-size: 1.05rem;
+  color: #e0e6ee;
+  margin-bottom: 30px;
+}
+.rita-venues-btn {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #00315d;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 36px;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+  letter-spacing: 0.05em;
+}
+.rita-venues-btn:hover {
+  background-color: transparent;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* contact-cta */
+.rita-contact-cta {
+  text-align: center;
+  padding: 100px 0;
+  background: rgb(0, 50, 93);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.rita-contact-cta .rita-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.rita-contact-title {
+  font-size: 2rem;
+  letter-spacing: .08em;
+  margin-bottom: 10px;
+  color: #e3e8ee;
+}
+.rita-contact-sub {
+  font-size: 1.1rem;
+  color: #e3e8ee;
+  margin-bottom: 40px;
+}
+.rita-contact-btn {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #00315d;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 38px;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+  letter-spacing: 0.05em;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+.rita-contact-btn:hover {
+  background-color: transparent;
+  color: #ffffff;
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+}
+.rita-contact-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+}
