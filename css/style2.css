@@ -7,8 +7,6 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   color: #333;
-  font-family: "Josefin Sans", sans-serif;
-  color: #333;
   overflow-x: hidden;
   background: #fff;
 }
@@ -956,4 +954,72 @@ nav {
 .contact-section h2,
 .full-image-text h2 {
   font-size: 2rem;
+}
+
+.TituloPagHistoria {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.TituloPagHistoria h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 0.08em;
+}
+
+.TituloPagHistoria p {
+    margin: 0;
+    opacity: 0.8;
+}
+
+.HistoriaContainer {
+    margin: 30px auto 60px;
+}
+
+.HistoriaCaixa {
+    background: white;
+    border: 2px solid #1b4c78;
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+
+.HistoriaCaixa h3 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #e8eef4;
+}
+
+.HistoriaCaixaConteudo {
+    padding: 30px;
+    text-align: center;
+}
+
+.HistoriaCaixaConteudo p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.contact-button-container-historia {
+    text-align: center;
+    margin: 60px 0 40px;
+}
+
+.contact-button {
+    background-color: #004789;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #003d6f;
+    color: white;
 }
