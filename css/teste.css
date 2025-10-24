@@ -1,0 +1,275 @@
+/* Fontes */
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Cores principais */
+.bg-primary-custom {
+  background-color: #00315d;
+}
+
+.bg-secondary-custom {
+  background-color: #004789;
+}
+
+.text-primary-custom {
+  color: #00315d;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  /* opacity: 0.01; */
+}
+
+.navbar-brand img {
+  height: 55px;
+}
+
+.offcanvas-body a {
+  font-family: "Playfair Display", serif;
+  color: #00315d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.offcanvas-body a:hover {
+  color: #004789;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  height: 100vh;
+}
+
+.hero-content h1 {
+  font-size: 5rem;
+  letter-spacing: 8px;
+  font-weight: 400;
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.btn-hero {
+  border: 1px solid white;
+  color: white;
+  padding: 1rem 3rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  background: transparent;
+}
+
+.btn-hero:hover {
+  background: white;
+  color: #00315d;
+}
+
+/* Secções */
+section {
+  padding: 6rem 0;
+}
+
+.section-title {
+  font-size: 3rem;
+  color: #00315d;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  font-weight: 300;
+}
+
+/* About Section */
+.about-image {
+  height: 600px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: #666;
+  font-weight: 300;
+}
+
+/* Service Cards */
+.service-card {
+  background: white;
+  border: 1px solid #e5e5e5;
+  padding: 3rem 2rem;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 49, 93, 0.1);
+  border-color: #004789;
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #004789;
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  color: #00315d;
+  letter-spacing: 1px;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.service-card p {
+  color: #666;
+  font-weight: 300;
+}
+
+/* Full Image Section */
+.full-image-section {
+  position: relative;
+  height: 70vh;
+}
+
+.full-image-text {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.full-image-text h2 {
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+/* Gallery */
+.gallery-item {
+  height: 400px;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+/* Contact */
+.btn-contact {
+  background: #00315d;
+  color: white;
+  padding: 1.2rem 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  border: none;
+}
+
+.btn-contact:hover {
+  background: #004789;
+}
+
+/* Footer */
+footer {
+  background: #00315d;
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+footer h3 {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .about-image {
+    height: 400px;
+  }
+
+  .gallery-item {
+    height: 300px;
+  }
+}
+.text-shadow-drop-br {
+  -webkit-animation: text-shadow-drop-br 0.6s both;
+  animation: text-shadow-drop-br 0.6s both;
+}
+@keyframes text-shadow-drop-br {
+  0% {
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+  }
+  100% {
+    text-shadow: 6px 6px 18px rgba(0, 0, 0, 0.35);
+  }
+}
