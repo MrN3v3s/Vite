@@ -3,7 +3,11 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: #333;
 }
-
+svg {
+  position: fixed;
+  left: 76px;
+  top: -24px;
+}
 h1,
 h2,
 h3,
