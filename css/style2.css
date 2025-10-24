@@ -912,21 +912,19 @@ nav {
   width: 280px;
   padding: 5rem 2rem;
 }
-.nav-link-footer{
+.nav-link-footer {
   color: #ffffff;
 }
-  .nav-link{
+.nav-link {
   color: #004789;
 }
-.nav-link:hover, 
-.nav-link-footer:hover{
-  color:lightpink
+.nav-link:hover,
+.nav-link-footer:hover {
+  color: lightpink;
 }
-
 
 .nav-links a {
   font-size: 1.1rem;
-  
 }
 
 .hero-content h1 {
@@ -969,79 +967,80 @@ nav {
 }
 
 .TituloPagHistoria {
-    text-align: center;
-    padding: 40px 20px;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 .TituloPagHistoria h2 {
-    font-weight: 700;
-    margin-bottom: 10px;
-    letter-spacing: 0.08em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 0.08em;
 }
 
 .TituloPagHistoria p {
-    margin: 0;
-    opacity: 0.8;
+  margin: 0;
+  opacity: 0.8;
 }
 
 .HistoriaContainer {
-    margin: 30px auto 60px;
+  margin: 30px auto 60px;
 }
 
 .HistoriaCaixa {
-    background: white;
-    border: 2px solid #1b4c78;
-    border-radius: 15px;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
-    overflow: hidden;
+  background: white;
+  border: 2px solid #1b4c78;
+  border-radius: 15px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
 }
 
-
 .HistoriaCaixa h3 {
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-    font-weight: 700;
-    border-bottom: 1px solid #e8eef4;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid #e8eef4;
 }
 
 .HistoriaCaixaConteudo {
-    padding: 30px;
-    text-align: center;
+  padding: 30px;
+  text-align: center;
 }
 
 .HistoriaCaixaConteudo p {
-    line-height: 1.8;
-    margin-bottom: 15px;
+  line-height: 1.8;
+  margin-bottom: 15px;
 }
 
 .contact-button-container-historia {
-    text-align: center;
-    margin: 60px 0 40px;
+  text-align: center;
+  margin: 60px 0 40px;
 }
 
 .contact-button {
-    background-color: #004789;
-    color: white;
-    padding: 15px 40px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 18px;
-    display: inline-block;
-    transition: background-color 0.3s;
+  background-color: #004789;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  transition: background-color 0.3s;
 }
 
 .contact-button:hover {
-    background-color: #003d6f;
-    color: white;
+  background-color: #003d6f;
+  color: white;
 }
 
 /* CSS extraído de style.css — classes prefixadas com "rita-" para mesclar em style2.css */
 
 /* rita-servicos */
 .rita-servicos {
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.533), rgba(0, 71, 137, 0.599)),
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.533),
+      rgba(0, 71, 137, 0.599)
+    ),
     url("img/geral\ \(7\).png") center/cover no-repeat;
   color: #ffffff;
   text-align: left;
@@ -1052,7 +1051,7 @@ nav {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.25);
+  background: rgba(0, 0, 0, 0.25);
 }
 .rita-servicos-container {
   position: relative;
@@ -1089,16 +1088,16 @@ nav {
 }
 
 /* rita-SERVICOS (separado do bloco rita-servicos original) */
-.rita-SERVICOS{
-  position:relative;
-  isolation:isolate;
-  min-height:46vh;
-  display:grid;
-  place-items:center;
-  color:#fff;
-  text-align:center;
-  padding:64px 20px;
-  background:#0c2a47 url('geral.png') center/cover no-repeat;
+.rita-SERVICOS {
+  position: relative;
+  isolation: isolate;
+  min-height: 46vh;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 64px 20px;
+  background: #0c2a47 url("geral.png") center/cover no-repeat;
 }
 
 /* cartoes / casamentos */
@@ -1109,14 +1108,14 @@ nav {
 .rita-casamentos-title {
   text-align: center;
   font-weight: 1000;
-  font-size:3rem;
+  font-size: 3rem;
   padding: 14px 10px;
   color: var(--azul);
 }
 .rita-cards {
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 /* card-wedding */
@@ -1148,16 +1147,20 @@ nav {
 .rita-card-wedding__overlay {
   position: absolute;
   inset: 0;
-  display: grid; place-items: center;
+  display: grid;
+  place-items: center;
   text-align: center;
   padding: 10px;
-  background:
-    linear-gradient(0deg, rgba(0,49,93,.75), rgba(0,71,137,.65));
+  background: linear-gradient(
+    0deg,
+    rgba(0, 49, 93, 0.75),
+    rgba(0, 71, 137, 0.65)
+  );
   color: #fff;
   font-weight: 800;
-  letter-spacing: .06em;
+  letter-spacing: 0.06em;
   opacity: 0;
-  transition: opacity .25s ease;
+  transition: opacity 0.25s ease;
 }
 .rita-card-wedding:hover .rita-card-wedding__overlay,
 .rita-card-wedding.is-active .rita-card-wedding__overlay {
@@ -1173,7 +1176,7 @@ nav {
   color: #5a6a7a;
 }
 .rita-card-wedding.is-muted .rita-card-wedding__media img {
-  filter: grayscale(100%) opacity(.55);
+  filter: grayscale(100%) opacity(0.55);
 }
 .rita-card-wedding__overlay a {
   color: inherit;
@@ -1202,150 +1205,157 @@ nav {
 .rita-btn-sabemais:hover {
   background-color: #004789;
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* eventos */
-.rita-eventos{
+.rita-eventos {
   margin-top: 90px;
   padding: 60px 0;
   text-align: center;
   background-color: #024686;
   color: #ffffff;
 }
-.rita-eventos .rita-container{
+.rita-eventos .rita-container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 40px;
 }
-.rita-eventos-title{
+.rita-eventos-title {
   font-size: 1.8rem;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   color: #ffffff;
   margin: 0 0 6px;
 }
-.rita-eventos-sub{
+.rita-eventos-sub {
   color: #ffffff;
   margin: 0 0 28px;
 }
-.rita-ev-grid{
+.rita-ev-grid {
   display: grid;
   gap: 22px;
   grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
   justify-content: center;
 }
-.rita-ev-card{
+.rita-ev-card {
   display: block;
   border-radius: 18px;
   overflow: hidden;
   position: relative;
   text-decoration: none;
 }
-.rita-ev-media{
+.rita-ev-media {
   margin: 0;
   position: relative;
   aspect-ratio: 16 / 10;
 }
-.rita-ev-media img{
+.rita-ev-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
   transform: scale(1);
-  transition: transform .35s ease, filter .35s ease;
+  transition: transform 0.35s ease, filter 0.35s ease;
 }
-.rita-ev-media::after{
+.rita-ev-media::after {
   content: "";
   position: absolute;
   inset: 0;
-  transition: background .25s ease;
+  transition: background 0.25s ease;
 }
-.rita-ev-label{
+.rita-ev-label {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 14px;
   text-align: center;
-  letter-spacing: .06em;
+  letter-spacing: 0.06em;
   color: #ffffff;
   font-weight: 800;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.433);
   transform: none;
 }
-.rita-ev-card:hover img{
+.rita-ev-card:hover img {
   transform: scale(1.06);
-  filter: saturate(.95);
+  filter: saturate(0.95);
 }
-.rita-ev-card:focus-visible{
+.rita-ev-card:focus-visible {
   outline: 3px dashed #00315d;
   outline-offset: 4px;
   border-radius: 18px;
 }
-@media (max-width: 900px){
-  .rita-ev-grid{ grid-template-columns: repeat(2, minmax(240px, 1fr)); }
+@media (max-width: 900px) {
+  .rita-ev-grid {
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+  }
 }
-@media (max-width: 560px){
-  .rita-ev-grid{ grid-template-columns: 1fr; }
-  .rita-eventos .rita-container{ padding: 0 20px; }
+@media (max-width: 560px) {
+  .rita-ev-grid {
+    grid-template-columns: 1fr;
+  }
+  .rita-eventos .rita-container {
+    padding: 0 20px;
+  }
 }
 
 /* complementares */
-.rita-complementares{
-  padding:64px 0;
-  border-top:1px solid var(--stroke);
+.rita-complementares {
+  padding: 64px 0;
+  border-top: 1px solid var(--stroke);
 }
-.rita-comp-title{
-  text-align:center;
-  color:var(--primary);
-  font-size:1.6rem;
-  letter-spacing:.05em;
-  margin:0 0 6px;
+.rita-comp-title {
+  text-align: center;
+  color: var(--primary);
+  font-size: 1.6rem;
+  letter-spacing: 0.05em;
+  margin: 0 0 6px;
 }
-.rita-comp-sub{
-  text-align:center;
-  color:var(--muted);
-  margin:0 0 28px;
+.rita-comp-sub {
+  text-align: center;
+  color: var(--muted);
+  margin: 0 0 28px;
 }
-.rita-comp-grid{
-  display:grid;
-  gap:18px;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+.rita-comp-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-.rita-comp-card{
-  background:#fff;
-  border:1px solid var(--stroke);
-  border-radius:16px;
-  padding:18px;
-  text-align:center;
-  transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+.rita-comp-card {
+  background: #fff;
+  border: 1px solid var(--stroke);
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
-.rita-comp-card:hover{
-  transform:translateY(-4px);
-  box-shadow:0 10px 18px rgba(0,0,0,.08);
-  border-color:#d9d2cf;
+.rita-comp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+  border-color: #d9d2cf;
 }
-.rita-comp-icon{
-  width:64px;
-  height:64px;
-  margin:4px auto 10px;
-  border-radius:999px;
-  display:grid;
-  place-items:center;
-  font-size:30px;
-  font-weight:700;
-  background:linear-gradient(180deg, var(--primary), var(--accent));
-  color:#fff;
+.rita-comp-icon {
+  width: 64px;
+  height: 64px;
+  margin: 4px auto 10px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  background: linear-gradient(180deg, var(--primary), var(--accent));
+  color: #fff;
 }
-.rita-comp-name{
-  margin:4px 0 6px;
-  color:var(--primary);
-  font-size:1rem;
-  letter-spacing:.04em;
+.rita-comp-name {
+  margin: 4px 0 6px;
+  color: var(--primary);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
 }
-.rita-comp-desc{
-  margin:0;
-  color:#2a2a2a;
-  font-size:.95rem;
+.rita-comp-desc {
+  margin: 0;
+  color: #2a2a2a;
+  font-size: 0.95rem;
 }
 
 /* venues (unificado) */
@@ -1354,8 +1364,7 @@ nav {
   padding: 80px 0;
   color: #ffffff;
   margin-top: 80px;
-  background:
-    linear-gradient(rgba(0, 50, 93, 0.564), rgba(0, 71, 137, 0.428)),
+  background: linear-gradient(rgba(0, 50, 93, 0.564), rgba(0, 71, 137, 0.428)),
     url("img/geral\ \(11\).png") center/cover no-repeat;
 }
 .rita-venues .rita-container {
@@ -1408,7 +1417,7 @@ nav {
 }
 .rita-contact-title {
   font-size: 2rem;
-  letter-spacing: .08em;
+  letter-spacing: 0.08em;
   margin-bottom: 10px;
   color: #e3e8ee;
 }
@@ -1434,11 +1443,351 @@ nav {
   background-color: transparent;
   color: #ffffff;
   transform: scale(1.05);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
 }
 .rita-contact-btn::after {
   content: "";
   position: absolute;
   inset: 0;
   border-radius: 12px;
+}
+
+/* Estilo da iris */
+
+.intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+hr {
+  width: 150px;
+  margin: 30px auto;
+  border-top: 2px solid #d4a574;
+}
+
+.box {
+  background: white;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.box img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.box p {
+  font-style: italic;
+  color: #555;
+  margin-top: 20px;
+}
+
+.contact-button-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.contact-button:active {
+  transform: translateY(0);
+}
+
+.claudia-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+.claudia-logo {
+  height: 68px;
+  width: auto;
+  display: block;
+  padding: 10px 16px;
+}
+.claudia-title {
+  text-align: center;
+  margin: 22px 0 8px;
+  font-size: clamp(22px, 3.5vw, 32px);
+}
+.claudia-sub {
+  text-align: center;
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+
+.claudia-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+@media (max-width: 900px) {
+  .claudia-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .claudia-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.claudia-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #fff;
+}
+.claudia-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+.claudia-card .claudia-meta {
+  padding: 10px 12px;
+  font-weight: 700;
+}
+
+.claudia-venues-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 8px;
+}
+@media (max-width: 760px) {
+  .claudia-venues-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.claudia-venue {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 12px;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+  background: #fff;
+}
+@media (max-width: 560px) {
+  .claudia-venue {
+    grid-template-columns: 1fr;
+  }
+}
+.claudia-venue img {
+  width: 140px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+.claudia-venue h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+.claudia-venue p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.claudia-mini-grid {
+  display: grid;
+  gap: 2px;
+  background: #f3f6fa;
+}
+.claudia-mini-grid img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+.claudia-mini-4 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.claudia-mini-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 560px) {
+  .claudia-mini-grid img {
+    height: 120px;
+  }
+}
+
+.claudia-slideshow {
+  position: relative;
+  aspect-ratio: 4/3;
+  background: #f6f8fb;
+  overflow: hidden;
+}
+.claudia-slideshow img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: claudia-fade 8s infinite;
+  animation-play-state: paused;
+}
+.claudia-slideshow img:nth-child(1) {
+  opacity: 1;
+  animation-delay: 0s;
+}
+.claudia-slideshow img:nth-child(2) {
+  animation-delay: 2s;
+}
+.claudia-slideshow img:nth-child(3) {
+  animation-delay: 4s;
+}
+.claudia-slideshow img:nth-child(4) {
+  animation-delay: 6s;
+}
+
+.claudia-card:hover .claudia-slideshow img {
+  animation-play-state: running;
+}
+
+@keyframes claudia-fade {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.claudia-lb {
+  position: fixed;
+  inset: 0;
+  display: none;
+  place-items: center;
+  background: rgba(0, 13, 26, 0.65);
+  padding: 24px;
+  z-index: 30;
+}
+.claudia-lb:target {
+  display: grid;
+}
+.claudia-lb-inner {
+  max-width: 92vw;
+  max-height: 88vh;
+  position: relative;
+}
+.claudia-lb-inner img {
+  max-width: 100%;
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  display: block;
+}
+.claudia-lb-close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: 800;
+  border: 1px solid #cdd7e3;
+}
+
+.claudia-lb-gallery {
+  position: fixed;
+  inset: 0;
+  display: none;
+  place-items: center;
+  background: rgba(0, 13, 26, 0.65);
+  padding: 24px;
+  z-index: 40;
+}
+.claudia-lb-gallery:target {
+  display: grid;
+}
+.claudia-lb-gallery .claudia-vp {
+  position: relative;
+  max-width: 92vw;
+  max-height: 88vh;
+  width: auto;
+}
+.claudia-lb-gallery input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.claudia-lb-gallery .claudia-slide {
+  display: none;
+}
+.claudia-lb-gallery img {
+  max-width: 92vw;
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+.claudia-lb-gallery .claudia-close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  font-weight: 800;
+  border: 1px solid #cdd7e3;
+}
+.claudia-lb-gallery .claudia-ctrl {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid #cdd7e3;
+  place-items: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+.claudia-lb-gallery .claudia-prev {
+  left: -18px;
+}
+.claudia-lb-gallery .claudia-next {
+  right: -18px;
+}
+.claudia-lb-gallery .claudia-dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.claudia-lb-gallery .claudia-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #c9d3e2;
+  border: 1px solid #b7c3d6;
+  cursor: pointer;
 }
