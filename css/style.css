@@ -22,6 +22,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+   color: #00315d;
 }
 
 /* Cores principais */
@@ -1110,7 +1111,6 @@ nav {
   font-weight: 1000;
   font-size: 3rem;
   padding: 14px 10px;
-  color: var(--azul);
 }
 .rita-cards {
   display: grid;
@@ -1305,14 +1305,12 @@ nav {
 }
 .rita-comp-title {
   text-align: center;
-  color: var(--primary);
   font-size: 1.6rem;
   letter-spacing: 0.05em;
   margin: 0 0 6px;
 }
 .rita-comp-sub {
   text-align: center;
-  color: var(--muted);
   margin: 0 0 28px;
 }
 .rita-comp-grid {
@@ -1348,7 +1346,6 @@ nav {
 }
 .rita-comp-name {
   margin: 4px 0 6px;
-  color: var(--primary);
   font-size: 1rem;
   letter-spacing: 0.04em;
 }
@@ -1513,7 +1510,7 @@ hr {
 }
 .claudia-sub {
   text-align: center;
-  color: var(--muted);
+
   margin: 0 0 18px;
 }
 
