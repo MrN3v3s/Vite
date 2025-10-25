@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
-   color: #00315d;
+  color: #004789;
 }
 
 /* Cores principais */
@@ -229,13 +229,14 @@ section {
 .full-image-text {
   position: relative;
   z-index: 2;
-  color: white;
+  color: white !important;
 }
 
 .full-image-text h2 {
   font-size: 3.5rem;
   letter-spacing: 3px;
   font-weight: 400;
+  color: white !important;
 }
 
 /* Gallery */
